@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo)",
+      "PowerShell(gh repo *)",
+      "PowerShell(git config *)",
+      "Bash(gh repo *)",
+      "WebFetch(domain:api.github.com)",
+      "PowerShell(git clone *)",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\DEV\\\\Agent-prj\\\\Docu-seal\" -Force | Select-Object Name, @{Name=\"Type\";Expression={if\\($_.PSIsContainer\\){\"Dir\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(ls -Path \"D:\\\\DEV\\\\Agent-prj\\\\Docu-seal\\\\app\" -Recurse | Where-Object {$_.Name -match \"\\\\.\\(yml|yaml|json\\)$\"} | Select-Object FullName)",
+      "PowerShell(head *)"
+    ]
+  }
+}
