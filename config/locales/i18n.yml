@@ -7848,6 +7848,9 @@ ar:
   too_many_requests_try_again_later: طلبات كثيرة جدًا. حاول مرة أخرى لاحقًا.
 
 ko:
+  initial_setup: 초기 설정
+  app_url: 앱 URL
+  language: 언어
   require_phone_2fa_to_open: 열려면 휴대폰 2FA 요구
   the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: 발신자가 <b>%{phone}</b> 전화번호로 전송된 일회용 비밀번호를 통해 2단계 인증을 요청했습니다.
   send_verification_code: 인증 코드 보내기
